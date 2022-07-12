@@ -20,7 +20,7 @@ public class casting {
 
         int i3;
         long l3 = 10000L;
-        i3 = l3; //dowcast sem perda de informação
+        i3 = (int) l3; //dowcast sem perda de informação
 
         double d1;
         float f1 = 19.5f;
